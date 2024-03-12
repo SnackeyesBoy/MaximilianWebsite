@@ -1,0 +1,127 @@
+/* css格式reset */
+
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+
+}
+
+.box{
+    width: 150px;
+    height: 50px;
+    background-color: teal;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+}
+
+.productList{
+    width: 600px;
+}
+
+.productList .sale{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color:tomato ;
+    padding: 8px;
+}
+
+.productList img{
+    margin-top: 10px;
+}
+
+.productList li{
+    position:relative;
+    float: left;
+    width: 138px;
+    height: 200px;
+    border: 1px solid #000;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.productList li h2{
+    margin-top: 20px;
+    color: darkslategrey;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.productList li span{
+    color: tomato;
+    font-size: 20px;
+}
+
+
+
+
+.box .home{
+    color: aquamarine;    
+    font-size: 24px;
+    padding-left: 40px;
+    padding-top: 40px;
+}

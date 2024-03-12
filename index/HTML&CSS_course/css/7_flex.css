@@ -1,0 +1,214 @@
+
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+h3{
+    width: 30px;
+    margin-left: 50%;
+    text-align: center;
+    background-color: gold;
+}
+
+p{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.container{
+    display: flex;
+    background: #004466;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.item{
+    width: 100px;
+    background: #00ffa2;
+    color: #004466;
+    font-size: 36px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.item1-2{
+    height: 300px;
+}
+
+.container2{
+
+    display: flex;
+
+    background: #004466;
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.item2{
+
+    background: #00ffa2;
+    color: #004466;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.item2-1{
+    width: 150px;
+    height: 150px;
+}
+
+.item2-2{
+    height: 200px;
+}
+
+.item2-3{
+    width: 400px;
+
+}
+
+.container3{
+
+    display: flex;
+    flex-direction: column;
+
+    background: #004466;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+
+}
+
+.item3{
+
+    background: #00ffa2;
+    color: #004466;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+/* .item3-1{
+    width: 150px;
+    height: 150px;
+}
+
+.item3-2{
+    height: 200px;
+}
+
+.item3-3{
+    width: 400px;
+
+} */
+
+.container4{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background: #004466;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+.item4{
+
+    background: #00ffa2;
+    color: #004466;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+
+/* CSS Reset在做 */
+
+.meau{
+    
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.meau li{
+    width: 100px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.meau li a{
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #004466;
+    background-color: #00ffa2;
+}
+
+.meau li a:hover{
+    background-color: #004466;
+    color: #00ffa2;
+}
+
+.meau2{
+    
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+}
+
+.meau2 li{
+    width: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.meau2 li a{
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #004466;
+    background-color: #00ffa2;
+}
+
+.meau2 li a:hover{
+    background-color: #004466;
+    color: #00ffa2;
+}
+
+
+.home{
+    display: block;
+    font-size: 24px;
+    margin-left: 50%;
+}
+

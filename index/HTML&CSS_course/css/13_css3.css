@@ -1,0 +1,181 @@
+/* css格式reset */
+
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}
+
+.content{
+    margin-left: 30px;
+}
+
+.content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 50%;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 30px 0 0 0 ;
+}
+
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 30px 0 30px 0 ;
+    text-align: center;
+    line-height:50px;
+    /* 可以透過這個方法調整垂直的高度  */
+    border: 4px solid rgb(255, 200, 0);
+    color: aliceblue;
+}
+
+.box5{
+    width: 1650px;
+    height: 200px;
+    background:linear-gradient(rgb(22, 176, 161),rgb(23, 126, 171));
+    /* border-radius: 30px 0 30px 0 ; */
+    text-align: center;
+    line-height:100px;
+    /* 可以透過這個方法調整垂直的高度  */
+    /* border: 4px solid rgb(255, 200, 0); */
+    color: aliceblue;
+}
+
+.box5 p{
+    font-size: 25px;
+    letter-spacing: 8px;
+    color: gold;
+}
+
+.box6{
+    width: 1650px;
+    height: 200px;
+    /* background:linear-gradient(rgb(22, 176, 161),rgb(23, 126, 171)); */
+    background-image: linear-gradient(to right, red , yellow);
+
+    /* border-radius: 30px 0 30px 0 ; */
+    text-align: center;
+    line-height:100px;
+    /* 可以透過這個方法調整垂直的高度  */
+    /* border: 4px solid rgb(255, 200, 0); */
+    color: aliceblue;
+}
+
+.box6 p{
+    font-size: 25px;
+    letter-spacing: 8px;
+    color: rgb(255, 255, 255);
+}
+
+.box7{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    box-shadow: 10px 10px 10px pink;
+    /* (x軸、y軸、柔邊程度) */
+    border-radius: 30px 0 0 0 ;
+}
+
+
+
+
+
+
+
+
+.home a{
+    margin-top: 80px;
+    background-color: rgb(102, 195, 164);
+    padding: 10px;
+    color: aliceblue;
+    box-shadow: 3px 3px 10px rgb(132, 126, 126);
+    text-decoration:none ;
+    font-size: 24px;
+    margin-left: 800px;
+	border-radius: 10px;
+}
+
+
+.home a:hover{
+    font-size: 30px;
+    color: rgb(255, 217, 0);
+}
