@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Max's Web of table</title>
+        <link rel="stylesheet" href="css/12_table.css">
+    </head>
+
+    <body>
+        <h1>HTML 表格</h1>
+        <hr>
+        
+        <div class="contener">
+            
+                <table class="t1">
+                    <h2>表單</h2>
+                    <tr>
+                        
+                        <th>標題一</th>
+                        <th>標題二</th>
+                        <th>標題三</th>
+                    </tr>
+                    <tr>
+                        <td>內容一</td>
+                        <td>內容二</td>
+                        <td>內容三</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                </table>
+            
+            <br>
+                <div class="t2">
+                    <h2>表單三劍客：Form、輸入欄位、Submit</h2>
+                    <br>
+                    <form action="12_table.html">
+                        <label for="mail">電子郵件：</label>
+                        <input id="mail" type="text" placeholder="Gmail" name="mail">
+                        <label for="person's name">姓名：</label>
+                        <input id="person;s name" type="text" placeholder="Name" name="person's name">
+                        <input type="submit" value="next">
+                        <!-- for會對應id,name是跟資料庫名稱連結 -->
+                    </form>
+                    <br>
+                    <form action="12_table.html">
+                        <h2>性別</h2>
+                        <br>
+                        <input type="radio" name="sex" value="male">男生
+                        <input type="radio" name="sex" value="female">女生
+                        <input type="submit" value="send">
+                        <br>
+                        <br>
+                        <h2>興趣</h2>
+                        <br>
+                        <input type="checkbox" name="hobby" value="movie">看電影
+                        <input type="checkbox" name="hobby" value="music">聽音樂
+                        <input type="checkbox" name="hobby" value="reading">閱讀
+                        <input type="submit" value="send">
+                        <br>
+                        <br>
+                        <h2>生日</h2>
+                        <br>
+                        <label for="birth">生日：</label>
+                        <select name="birth" id="birth">
+                            <option value="1900">1900</option>
+                            <option value="1901">1901</option>
+                            <option value="1902">1902</option>
+                        </select>
+                        <input type="submit" value="send">
+                        <br>
+                        <br>
+                        <h2>內容</h2>
+                        <br>
+                        <textarea name="content" id="" cols="50" rows="10"></textarea>
+                        <br>
+                        <input type="submit" value="send">
+                            
+
+
+                    </form>
+
+                    <br>
+
+                    <div class="t3"> 
+                        <h2>使用 CSS 修改表單 (Form) 樣式</h2>
+                        <br>
+                        <form action="12_table.html">
+                            <input type="text" placeholder="Please Enter Some Words" class="text">
+                            <input type="button" value="Button" class="button"> 
+                            <!-- 注意在其他瀏覽器可能會有破版的問題，課可以搭配Pure Css下載來使用 -->
+                        </form>
+                    </div>
+                    
+                </div>
+        </div>
+        <br>
+        <div class="home">
+            <a href="../../index.html" >Home</a>
+        </div>
+        
+    </body>
+</html>
