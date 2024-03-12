@@ -1,0 +1,118 @@
+/* css格式reset */
+
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(76, 79, 78);
+    
+}
+h1{
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+hr{
+    width:1024px ;
+}
+
+img{
+    display: block;
+    margin:0 auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(238, 132, 226);
+}
+
+
+/* -------------content-------------- */
+
+
+.content p{
+    /* margin: auto; */
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 10px;
+
+
+}
+
+.allimgs{
+    display: block;
+    display: flex;
+}
+
+.home a{
+    margin-top: 60px;
+    background-color: rgb(102, 195, 164);
+    border-radius: 5px;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration:none ;
+    font-size: 24px;
+    margin-left: 47%;
+}
+
+.home a:hover{
+    font-size: 25px;
+    color: rgb(255, 217, 0);
+}
