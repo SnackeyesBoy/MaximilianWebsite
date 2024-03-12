@@ -1,0 +1,314 @@
+/* css格式reset */
+
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(76, 79, 78);
+}
+
+.title {
+  color: aliceblue;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin: 2px;
+}
+
+.logo {
+  font-size: 50px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: rgb(231, 206, 19);
+  background-color: rgb(47, 57, 54);
+  box-shadow: 5px 5px 10px #000;
+  width: 200px;
+  padding-top: 60px;
+
+  padding-bottom: 10px;
+  letter-spacing: 0px;
+}
+
+.bar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  margin-bottom: 30px;
+  color: rgb(47, 145, 145);
+  background-color: aquamarine;
+  border-bottom: 2px solid #fff;
+  /* position: fixed;
+    top: 0;
+    left: 0; */
+}
+
+.bar h1 {
+  margin: 10px;
+  font-size: 50px;
+}
+
+.little_title {
+  text-align: center;
+  color: rgb(217, 217, 217);
+  margin: 10px;
+  font-size: 35px;
+  letter-spacing: 15px;
+}
+
+.little_title h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+    letter-spacing:15px;
+
+}
+
+.little_title h2{
+    font-size: 15px ;
+}
+
+.bar logo {
+  margin: 10px;
+  font-size: 50px;
+}
+
+.bar ul {
+  display: flex;
+}
+
+.bar li {
+  width: 90px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bar a {
+  text-decoration: none;
+  display: block;
+  color: rgb(47, 145, 145);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bar a:hover {
+  width: 90px;
+
+  color: aquamarine;
+  background-color: cadetblue;
+}
+
+.introduction {
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.introduction img {
+  border-radius: 10px 0px 0px 10px;
+  border-right: 3px solid rgb(0, 238, 255, 0.428);
+  border-bottom: 3px solid rgb(0, 238, 255, 0.428);
+  /* box-shadow: 5px 5px 15px rgba(0, 238, 255, 0.428); */
+  margin-left: 15%;
+  margin-right: 20px;
+  
+}
+
+.introduction_text {
+  color: aliceblue;
+  background-color: rgb(47, 57, 54);
+  border-right: 3px solid rgb(251, 201, 0);
+  border-bottom: 3px solid rgb(251, 201, 0);
+  border-radius: 0px 10px 10px 0px;
+  width: 800px;
+  line-height: 10px;
+}
+
+.introduction_text p {
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* 
+.home a{
+    margin-top: 60px;
+    background-color: rgb(102, 195, 164);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    color: aliceblue;
+    text-decoration:none ;
+    font-size: 24px;
+    margin-left: 800px;
+}
+
+.home a:hover{
+    font-size: 30px;
+    color: rgb(255, 217, 0);
+} */
+
+.footer {
+  /* height: 40px; */
+  /* width: 1660px; */
+  /* max-width: 1200px; */
+  color: #fff;
+  background-color: rgb(78, 170, 140);
+  /* flex-direction: column-reverse; */
+  /* background-repeat: ; */
+}
+
+.footer .information {
+  display: flex;
+  margin-left: 35%;
+}
+
+.footer p {
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer img {
+  display: flex;
+  padding-top: 17px;
+  padding-left: 10px;
+  display: block;
+  margin: 0 auto;
+}

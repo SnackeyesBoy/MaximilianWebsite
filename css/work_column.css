@@ -1,0 +1,263 @@
+/* css格式reset */
+
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(76, 79, 78);
+}
+
+/* ----------------- head -------------------- */
+
+.title{
+    color: aliceblue;
+    text-align: center;
+   
+    letter-spacing: 4px;
+    margin: 2px;
+}
+
+
+
+.logo{
+    font-size: 50px;
+    margin-left: 10px;
+    font-weight: bold;
+    color:rgb(231, 206, 19);
+    background-color: rgb(47, 57, 54);
+    box-shadow: 5px 5px 10px #000;
+    width: 200px;
+    padding-top: 60px;
+   
+    padding-bottom: 10px;
+    letter-spacing: 0px;
+
+}
+
+.big_title {
+    letter-spacing: 15px;
+    color: rgb(217, 217, 217);
+
+}
+
+.big_title h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.big_title h2{
+    font-size: 15px;
+}
+
+.bar{
+    
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    margin-bottom: 30px;
+    color: rgb(47, 145, 145);
+    background-color:aquamarine;
+    border-bottom: 2px solid #fff;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+}
+
+.little_title{
+    
+    
+    text-align: center;
+    color: rgb(217, 217, 217);
+    margin: 10px;
+    font-size: 50px;
+    
+}
+
+.bar logo{
+    margin: 10px;
+    font-size: 50px;
+    
+}
+
+.bar ul{
+    display: flex;
+}
+
+.bar li{
+    width: 90px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bar a{
+    text-decoration: none;
+    display: block;
+    background-color: ;
+    color:rgb(47, 145, 145);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.bar a:hover{
+    width: 90px;
+   
+    color: aquamarine ;
+    background-color: cadetblue;
+    
+}
+
+/* ----------------- content -------------------- */
+
+.content{
+
+}
+
+.content h2{
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.work1{
+    margin-top:70px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 10px rgb(17, 152, 219);
+    border-radius: 10px;
+    width: 450px;
+    height: 700px;
+    background-color:rgb(47, 57, 54);
+
+}
+
+.work1 img{
+    display: block;
+    margin:0 auto;
+    padding-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+/* 
+.home a{
+    margin-top: 60px;
+    background-color: rgb(102, 195, 164);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    color: aliceblue;
+    text-decoration:none ;
+    font-size: 24px;
+    margin-left: 800px;
+}
+
+.home a:hover{
+    font-size: 30px;
+    color: rgb(255, 217, 0);
+} */
+
+
+
+
+
+.footer{
+    /* height: 40px; */
+    /* width: 1660px; */
+    /* max-width: 1200px; */
+    color: #fff;
+    background-color:rgb(78, 170, 140);
+    /* flex-direction: column-reverse; */
+    /* background-repeat: ; */
+    
+    
+}
+
+.footer .information{
+    display: flex;
+    margin-left: 35%;
+}
+
+.footer p{
+    
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.footer img{
+    display: flex; 
+    padding-top: 17px;
+    padding-left: 10px;
+    display: block;
+    margin: 0 auto;
+}
+

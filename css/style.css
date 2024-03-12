@@ -1,0 +1,447 @@
+/* css格式reset */
+
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 選擇器 */
+/* h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-left: 5px solid rgb(234, 107, 52);
+    border-bottom: 5px solid rgba(18, 208, 145, 0.788);
+    border-right: 5px solid rgb(226, 171, 43);
+    border-top: 5px solid rgb(175, 42, 182);
+    color:rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    
+} */
+
+
+
+
+
+
+
+
+/* --------------------------頁   首--------------------------------- */
+
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    margin-left: 30px;
+}
+
+/* a{
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 2px;
+    
+    
+} */
+/* 擬態選擇器 */
+/* a:hover{
+    color: rgb(229, 212, 25);
+    font-size: 24px;
+}
+a:active{
+    color: tomato;
+} */
+/* 自定義效果 */
+
+/* img{
+    margin-left:20px ;
+} */
+
+body{
+    /* margin: 0;
+    width: 1656px;
+    height: 1521px; */
+    background-color: rgb(76, 79, 78);
+    /* background-image: url(../img/20201007052948974.jpg.1680.0.jpg); */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-image: url(img/20201007052948974.jpg.1680.0.jpg); */
+    /* background-repeat: no-repeat; */
+}
+
+/* 使其貼齊 */
+
+
+
+
+
+
+/* .background{
+    width: 1656px;
+    height: 1521px;
+    background-image: url(../img/IMG_1755.png);
+
+} */
+
+
+
+
+
+
+
+
+.logo{
+    font-weight: bold;
+    color:rgb(231, 206, 19);
+    background-color: rgb(47, 57, 54);
+    box-shadow: 5px 5px 10px #000;
+    width: 200px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    z-index: 1;
+
+}
+
+.title{
+    
+    text-align: center;
+    
+}
+
+
+.title h2{
+    margin: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.title p{
+    margin: 20px;
+    color: rgb(235, 227, 227);
+    text-align: center;
+}
+
+.bar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    margin-bottom: 30px;
+    color: rgb(47, 145, 145);
+    background-color:aquamarine;
+    border-bottom: 2px solid #fff;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+}
+
+
+
+.bar h1{
+    margin: 10px;
+    font-size: 50px;
+    
+}
+
+.bar ul{
+    display: flex;
+}
+
+.bar li{
+    width: 90px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bar a{
+
+    display: block;
+    background-color: ;
+    color:rgb(47, 145, 145);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.bar a:hover{
+    width: 90px;
+    
+   
+    color: aquamarine ;
+    background-color: cadetblue;
+    box-shadow: 2px 2px 15px rgb(58, 109, 95);
+    
+}
+
+.title_content{
+
+    letter-spacing: 5px;
+}
+.title_content img{
+    
+    margin-top: -27px;
+    z-index: -1;
+}
+.p1{
+    position: absolute;
+    z-index: -1;
+}
+
+
+/* --------------------------內  容--------------------------------- */
+
+.content{
+
+    margin-bottom: 200px;
+}
+
+.list{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.list h2{
+    font-size: 30px;
+
+}
+
+.list li,a{
+    padding-left: 20px;
+    text-align: left;
+    padding-top: 8px;
+    color: rgb(223, 220, 203);
+    text-decoration: none;
+    letter-spacing: 3px;
+    
+
+}
+
+
+.list a:hover{
+    color: rgb(229, 212, 25);
+    font-size: 21px;
+    background-color: rgba(0, 0, 0, 0.247);
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 10px;
+    
+}
+
+.list a:active{
+    color: tomato;
+}
+
+
+
+
+hr{
+    width: 1024px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 第一份表單 */
+
+.one{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 450px;
+    height: 650px;
+    background-color: rgb(47, 57, 54);
+    border-bottom: 3px solid rgb(155, 89, 160);
+    border-right: 3px solid rgb(155, 89, 160);
+    color: rgb(201, 198, 181);
+    box-shadow: 2px 2px 20px rgb(151, 103, 234);
+    padding: 10px;
+
+}
+
+.one img{
+    margin-top: 25px;
+}
+
+
+
+
+
+.ultitle{
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight:600;
+}
+
+.ultitle .h{
+    color: tomato;
+}
+
+.ultitle .c{
+    letter-spacing: 2px;
+    color: cornflowerblue;
+}
+
+
+
+.two{
+    width: 450px;
+    
+    background-color: rgb(47, 57, 54);
+    border-bottom: 3px solid rgb(207, 176, 24);
+    border-right: 3px solid rgb(207, 176, 24);
+    color: rgb(201, 198, 181);
+    box-shadow: 2px 2px 20px rgb(233, 214, 92);
+    padding: 10px;
+}
+
+
+/* 第二份表單 */
+
+.two img{
+    margin-top: 25px;
+}
+
+.j{
+    letter-spacing: 2px;
+    color: orange;
+}
+
+
+
+.list li{
+    margin: 2px;
+}
+
+
+
+.style1{
+    color:rgb(68, 123, 105);
+}
+
+.font-family1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: left;
+    text-indent: 32px;
+    /* text-decoration: underline; */
+    letter-spacing: 1px;
+    
+}
+/* text-indent首段 */
+/* underline底線/line-through中線 */
+/* letter-spacing字距 */
+
+/* .home{
+    font-size: 24px;
+    margin-left: 50%;
+} */
+
+/* body .footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
+
+
+/* ---------------------表   尾--------------------- */
+
+.footer{
+    /* height: 40px; */
+    /* width: 1660px; */
+    /* max-width: 1200px; */
+    color: #fff;
+    background-color:rgb(78, 170, 140);
+    /* flex-direction: column-reverse; */
+    /* background-repeat: ; */
+    
+    
+}
+
+.footer .information{
+    display: flex;
+    margin-left: 35%;
+}
+
+.footer p{
+    
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.footer img{
+    display: flex; 
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
